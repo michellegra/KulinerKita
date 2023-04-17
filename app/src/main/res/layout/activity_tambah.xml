@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_margin="6dp"
     android:orientation="vertical"
+    android:background="@drawable/gm"
     tools:context=".Activity.TambahActivity">
 
     <TextView
@@ -16,8 +17,14 @@
         android:textColor="@color/black"
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="22dp"
         />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/profile" />
 
     <EditText
         android:id="@+id/et_nama"
@@ -57,7 +64,8 @@
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_marginTop="16dp"
-        android:backgroundTint="#CF9C38"
+        android:backgroundTint="#B3B7FF"
+        android:layout_margin="20dp"
         android:textSize="21sp"
         android:textColor="@color/black"
         android:text="TAMBAH"/>
