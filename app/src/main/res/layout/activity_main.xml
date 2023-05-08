@@ -8,11 +8,17 @@
     tools:context=".Activity.MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_player"
+        android:id="@+id/rv_kuliner"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:listitem="@layout/list_item_kuliner"
         />
+    <ProgressBar
+        android:id="@+id/pb_kuliner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_tambah"
