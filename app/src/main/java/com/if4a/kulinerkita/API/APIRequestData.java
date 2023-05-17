@@ -9,7 +9,7 @@ import retrofit2.http.GET;
 import retrofit2.http.POST;
 
 public interface APIRequestData {
-    @GET("retrive.php")
+    @GET("retrieve.php")
     Call<ModelResponse> ardRetrieve();
 
     @FormUrlEncoded
