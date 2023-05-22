@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             retrieveKuliner();
         }
 
-        private void retrieveKuliner() {
+        public void retrieveKuliner() {
             pbKuliner.setVisibility(View.VISIBLE);
 
             APIRequestData ARD = RetroServer.konekRetrofit().create(APIRequestData.class);
